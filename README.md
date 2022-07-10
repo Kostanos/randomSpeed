@@ -1,4 +1,5 @@
-# Get unique n random numbers in selected renge from 0..x speed test
+# Benchmark
+## Get unique set of random numbers in selected renge from 0..x
 
 Testing the speed of different ways to get the unique random set of numbers from the selected renge between 0 and x.
 
