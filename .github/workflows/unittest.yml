@@ -10,7 +10,7 @@ jobs:
     container: node:16
 
     steps:
-    - name Install deps
+    - name: Install deps
       run: NODE_ENV=development npm ci
     - name: Test
       run: CI=true npm test
