@@ -9,5 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
 
-    - run: npm i
-    - run: npm test
+    steps:
+    - name Install deps
+      run: NODE_ENV=development npm ci
+    - name: Test
+      run: CI=true npm test
