@@ -1,0 +1,13 @@
+name: UnitTest CI
+
+on:
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+  unittest-job:
+    runs-on: ubuntu-latest
+    container: node:16
+
+    - run: npm i
+    - run: npm test
