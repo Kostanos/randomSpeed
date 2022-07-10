@@ -11,6 +11,6 @@ jobs:
 
     steps:
     - name: Install deps
-      run: NODE_ENV=development npm ci
+      run: NODE_ENV=development npm i
     - name: Test
       run: CI=true npm test
